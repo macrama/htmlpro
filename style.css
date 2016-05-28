@@ -1,0 +1,76 @@
+body{
+    font-family:"Century Gothic", Calibri, serif;
+}
+input[type=submit]{
+    background-color:#325723;
+    color: white;
+    border:none;
+    padding: 8px 4px;
+   text-decoration:none;
+    margin: 1px 2px;
+    cursor:pointer;
+    border-radius:20px;
+
+}
+textarea {
+    width: 100%;
+    height:150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    resize: none;
+}
+
+input[type=text]:focus {
+    border: 3px solid #124523;
+}
+input[type=tel]:focus{
+    border: 3px solid #124523;
+}
+input[type=email]:focus{
+    border: 3px solid #124523;
+
+}
+.footer-st{
+    background-color:#FEFEFE;
+    color:#22427C;
+    width:100%;
+    height:80px;
+	padding: 30px 0;
+	text-align:center;
+	border-top:1px solid #d3d8da;
+}
+.portofollio{
+    background-color:#E6E6FA;
+    padding:40px 70px;
+    width:100%;
+    border-top:1px solid #d3d8da;
+}
+nav ul{
+	margin:0px;
+	padding:0px;
+}
+nav li{
+	list-style-type:none;
+	float:left;
+}
+nav a{
+	display:inline-block;
+	text-decoration: none;
+	padding:20px 30px;
+	color:black;
+	text-transform: uppercase;
+	font-size:15px;
+}
+.nav-bar{
+	display:table;
+	margin:0 auto;
+    border-top:1px solid #d3d8da;
+	border-bottom:1px solid #d3d8da;
+}
+nav li:hover{
+	border-top:5px solid #27408B;
+	background-color:#87CEFA;
+}

@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <title>final projet</title>
     <link href="style.css" rel="stylesheet" type="text/css">
+    
 </head>
 <body>
     <header>
@@ -13,17 +14,30 @@
             <b>Naviguez et vous en saurez plus sur Rama</b>
         </h4>
         <p>Je veux en savoir d avantages<a href="#ancre1">C est parti </a></p>
-        <img src="graphe.jpg" alt="ma photo"><hr>
+        <img src="graphe.jpg" alt="ma photo">
         <!--la phot desssus doit prendre la largeur de toute ma page-->
         <!--je peux toute fois designer mon ancre-->
     </header>
     <nav>
-    
-        <a href="index.html" id="ancre1">Accueil</a>
-		<a href="a.html">A propos</a>
-		<a href="t.html">Travail</a>
-		<a href="blog.html">Blog et Portofollio</a>
-		<a href="contacte.html">Contacte</a>
+        <div class="nav-bar">
+            <ul>
+                <li class="first">
+                    <a href="index.html" id="ancre1">Accueil</a>
+                </li>
+                <li class="second">
+    		        <a href="a.html">A propos</a>
+    		    </li>
+    		    <li class="third">
+		            <a href="t.html">Travail</a>
+		        </li>
+		        <li class="deux">
+    		        <a href="blog.html">Blog et Portofollio</a>
+    		    </li>
+    		    <li class="cinq">
+		            <a href="contacte.html">Contacte</a>
+		        </li>
+		    </ul>
+		</div>
     </nav>
     <article>
          <section>
@@ -40,34 +54,40 @@
             <p>Pour la petite histoire je suis ingenieur polytechnicien j aime la creativite<br>, je suis totallement convaincu que si chacun avait au moins<br> cet esprit de creer sa propre en entreprise l on  <br> serait sans doute pas des parasites ou peux etre vivre au depend des autres <br>je suis peux etre fou mais croyez moi on peux changer le monde <br>il existe aussi des intrapreneurs qui sont donc des entrepreneur au sein <br>des entrepreprises<br></p><hr>
          </section> 
          <section>
-            <h1>MES COMPETENCE</h1> 
-            <dl>
-                <dt> HTML 80%:</dt>
-                <dd>C est un language de balisage <br>c est avec ce script que vous verrez<br> les phrases sur votre site</dd>
-            </dl>
-            <!--Niveau 80 % -->
-            <a href="diplo.jpg" target="_blank">
-                <figcaption> Certificat HTML </figcaption>
-                <img src="certiht.jpg" alt="diplome" width="100"> 
-            </a>
-            <dl>
-                <dt> CSS 75%:</dt>
-                <dd>C est un language de style <br>c est avec ce script que vous verrez<br> les couleurs sur votre site</dd>
-            </dl>
+            <h1>MES COMPETENCE</h1>
+            <div class="htflo">
+                <dl class>
+                    <dt> HTML 80%:</dt>
+                    <dd>C est un language de balisage <br>c est avec ce script que vous verrez<br> les phrases sur votre site</dd>
+                </dl>
+                <!--Niveau 80 % -->
+                <a href="diplo.jpg" target="_blank">
+                    <figcaption> Certificat HTML </figcaption>
+                    <img src="certiht.jpg" alt="diplome" width="100"> 
+                </a>
+            </div>
+            <div class="cflo">
+                <dl>
+                    <dt> CSS 75%:</dt>
+                        <dd>C est un language de style <br>c est avec ce script que vous verrez<br> les couleurs sur votre site</dd>
+                </dl>
             <!--Niveau 75 % -->
-            <a href="diplo.jpg" target="_blank">
-                <figcaption> Certificat CSS </figcaption>
-                <img src="certcs.jpg" alt="diplome" width="100" > 
-            </a>
-            <dl>
-                <dt> PHP 60%:</dt>
-                <dd>C est un language de je sais pas  <br>c est avec ce script que vous verrez<br> les phrases sur votre site</dd>
-            </dl>
-            <!--Niveau 60 % -->
-            <a href="diplo.jpg" target="_blank">
-                <figcaption> Certificat PHP </figcaption>
-                <img src="diplo.jpg" alt="diplome" width="100" > 
-             </a>
+                <a href="diplo.jpg" target="_blank">
+                    <figcaption> Certificat CSS </figcaption>
+                     <img src="certcs.jpg" alt="diplome" width="100" > 
+                </a>
+            </div>
+            <div class="phflo">
+                <dl>
+                    <dt> PHP 60%:</dt>
+                    <dd>C est un language de je sais pas  <br>c est avec ce script que vous verrez<br> les phrases sur votre site</dd>
+                </dl>
+                <!--Niveau 60 % -->
+                <a href="diplo.jpg" target="_blank">
+                    <figcaption> Certificat PHP </figcaption>
+                    <img src="diplo.jpg" alt="diplome" width="100" > 
+                 </a>
+            <div>
             <dl>
                 <dt> JQUERY 75% :</dt>
                 <dd>C est un language de script lol <br>c est avec ce script que vous verrez<br> d autre comportement sur votre site</dd>
@@ -97,25 +117,28 @@
             <p>You can a partenaire just follow the link and fill in </p>
          </section>
          <section> 
-             <h1>Portofollio</h1>
-             <img src="vin.jpg"alt="vin">
-             <img src="can.jpg"alt="can">
-             <img src="zebre.jpg"alt="zebre">
-             <img src="boy.png"alt="boy">
-             <p>Je vais au cours et je suis<br> aussi des cours <br> HTML a Softserve universite <br> en esperant avoir un job dans le futur<br>et j en aurai ne vous en faite pas le <br>paye je vous assure j ai pas eu le courant <br> hier mais je me suis quand meme <br>reveiller a 5 heure mes freres  </p>
-         </section><hr>
+                <div class="portofollio">
+                    <h1>Portofollio</h1>
+                    <img src="vin.jpg"alt="vin" width="300px" height="300px">
+                    <img src="can.jpg"alt="can" width="300px" height="300px">
+                    <img src="zebre.jpg"alt="zebre" width="300px" height="300px">
+                    <img src="boy.png"alt="boy" width="300px" height="300px">
+                    <p>Je vais au cours et je suis<br> aussi des cours <br> HTML a Softserve universite <br> en esperant avoir un job dans le futur<br>et j en aurai ne vous en faite pas le <br>paye je vous assure j ai pas eu le courant <br> hier mais je me suis quand meme <br>reveiller a 5 heure mes freres  </p>
+                </div>
+         </section>
          <section>
             <form id="contact" method="post" action="https://formspree.io/macraens198@gmail.com">
                 <fieldset>
-                    <label for="mail">E-mail :</label>
-                    <input type="email" name="mail" id="mail"required placeholder="@gmail" /><br><br>
-                    <label for="nom">Nom</label>
-                    <input type="text" name="text" id="nom"  placeholder="Nom" /><br><br>
-                    <label for="phone">Telephone :</label>
-                    <input type="tel" name="tel" id="phone" required placeholder="votre numero "/><br><br>
-                    <label for="area">Laisse votre message ici :</label>
-                    <textarea id="area" name="area" ></textarea><br><br>
-                    <input type="Submit" value="Envoyer le message" />
+                    <legend>Information personnelles :</legend>
+                        <label for="mail">E-mail :</label>
+                            <input type="email" name="mail" id="mail"required placeholder="@gmail" /><br><br>
+                        <label for="nom">Nom</label>
+                            <input type="text" name="text" id="nom"  placeholder="Nom" /><br><br>
+                        <label for="phone">Telephone :</label>
+                            <input type="tel" name="tel" id="phone" required placeholder="votre numero "/><br><br>
+                        <label for="area">Laisse votre message ici :</label>
+                            <textarea id="area" name="area" ></textarea><br><br>
+                        <input type="Submit" value="Envoyer le message" />
                 </fieldset>
             </form>
          </section><hr>
@@ -131,10 +154,11 @@
          <!--ne pas oublier les icones simples-->
          </h4>
     </aside>
-    <hr>
-    <footer>
-         <p>&copy; Copyright 2016 Mukumbi Rama - Toute reproduction interdite</p>  
-         <!-- en bas je dois choisirs une couleur blanche peux etre et mettre les icones facebook instagram et consort surtout des icones simples ou encors reproduire le header ici-->
-    </footer>
+    <div class="footer-st">
+        <footer>
+             <p>&copy; Copyright 2016 Mukumbi Rama - Toute reproduction interdite</p>  
+             <!-- en bas je dois choisirs une couleur blanche peux etre et mettre les icones facebook instagram et consort surtout des icones simples ou encors reproduire le header ici-->
+        </footer>
+    </div>
 </body>
 </html>
