@@ -46,12 +46,12 @@ body{
     color:#838B8B;
 }
 .div-first-section{
-    background-color:#6E7B8B;
+    background-color:#DCDCDC;
     border:none;
     padding:30px;
     text-align:center;
 }
-.div-first-section p , h1 {
+.div-first-section  h1 {
     color:#1b3a51;
 }
 .div-first-section img{
@@ -61,10 +61,17 @@ body{
 .div-first-section img:hover{
     border:2px #1b3a51 solid;
 }
+div .div1{
+    text-align: center;
+}
 .div-second{
-    background-color:aqua;
+    background-color:white;
     border:1px solid #d3d8da;
     height:600px;
+    padding-top:30px;
+    padding-left:150px;
+    padding-right:150px;
+    text-align: center;
 }
 .div-second p {
     width: 100px;
@@ -75,11 +82,15 @@ body{
     position: relative;
     text-align:center;
 }
+.div-second h1{
+    color:#1b3a51;
+}
 .div1 , .div2 , .div3 , .div4{
     float:left;
     position: relative;
     text-align: center;
     width:50%;
+    
 }
 input[type=submit]{
     background-color:#325723;
