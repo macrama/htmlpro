@@ -1,22 +1,32 @@
 body{
     font-family:"Century Gothic", Calibri, serif;
+    
+    
 }
 .main-header{
     background-image: url(studio.jpg);
     background-clip: padding-box;
     background-repeat: no-repeat;
-    opacity:0.9;
-    height:500px;
+    width: 100%;
+    height:700px;
+    top:0;
+    
+
+     
+     
 }
 .part-of-header{
-    background-color:#fff;
-    top: 100px;
+    background:white;
+    top:250px;
     position: relative;
     height:300px;
     width:400px;
     padding-left:45px;
     padding-top:50px;
     margin-left:100px;
+    border:none;
+    
+    
     
 }
 .part-of-header a{
@@ -30,6 +40,7 @@ body{
 }
 .part-of-header a:hover{
     padding:11px;
+    box-shadow:5px 5px 5px  #A52A2A;
     /* je doi ajouter le shadow*/
 }
 .part-of-header h2,h4{
@@ -42,14 +53,6 @@ body{
     left:5px;
     top:5px;
 }
-fieldset{
-    background-color:white;
-    border:2px solid black;
-    width:150px;
-    position:absolute;
-    top:0px;
-    right:550px;
-}
 .div3 p{
     left:200px;
 }
@@ -58,12 +61,15 @@ fieldset{
 }
 .div2 p{
     left:200px;
+    
 }
 .div1 p{
     left:200px;
+    
+    
 }
 .nom , .date , .web , .histo{
-    background-color: white;
+    background-color:white;
     position:relative;
     width: 250px;
     height:100px;
@@ -74,6 +80,7 @@ fieldset{
     bottom:360px;
     left:800px;
     height: 100px;
+    
 }
 .nom{
     bottom:150px;
@@ -94,20 +101,22 @@ fieldset{
     padding-right: 20px;
 }
 .div-first-section p{
-    color:#838B8B;
+    color:black;
 }
 .div-first-section{
-    background-color:white;
+    background-color:#FFFAF0;
     border:none;
     padding:30px;
     text-align:center;
     position: relative;
+    margin:0 auto;
 }
 .div-first-section  h1 {
     color:#1b3a51;
 }
 .div-first-section img{
     border-radius:100px;
+    
     
 }
 .div-first-section img:hover{
@@ -116,7 +125,7 @@ fieldset{
 }
 .div-second{
     background-color:white;
-    border:1px solid #d3d8da;
+    
     height:600px;
     padding-top:30px;
     padding-left:150px;
@@ -125,7 +134,7 @@ fieldset{
     position: relative;
     margin-top:20px;
     margin-bottom: 20px;
-    border:none;
+    
 }
 .div-second p {
     width: 100px;
@@ -138,12 +147,30 @@ fieldset{
 }
 .div-second h1{
     color:#1b3a51;
+    text-align: center;
+    margin-bottom:40px;
+    
 }
 .div1 , .div2 , .div3 , .div4{
     float:left;
     position: relative;
     text-align: center;
     width:50%;
+}
+.edu{
+    text-align: center;
+}
+.edu h1{
+    margin-bottom: 100px;
+}
+.edu p{
+    background-color:#FFFAF0; 
+    position: relative;
+    text-align: left;
+    width:600px;
+    margin-left: 200px;
+    overflow: scroll;
+    height: 300px;
 }
 input[type=submit]{
     background-color:#325723;
@@ -177,9 +204,33 @@ input[type=email]:focus{
     border: 3px solid #124523;
 
 }
+#hidden{
+    text-align: center;
+    position:relative;
+    bottom:-250px;
+}
+#hidden h1{
+    margin-bottom: 40px;
+}
+aside{
+    background-color:#FFFAF0;
+    
+    border:none;
+    position:relative;
+    bottom:600px;
+    width:300px;
+    left:1000px;
+
+}
+.reco{
+    background-color:#FFFAF0;
+    width:500px;
+    margin:0 auto;
+}
 .footer-st{
-    background-color:#C7C7C7;
-    color:#22427C;
+    background-color:#E6E6FA;;
+    /*c7c7c7*/
+    color:black;
     width:100%;
     height:80px;
     position:absolute;
@@ -189,37 +240,44 @@ input[type=email]:focus{
 	
 }
 .portofollio{
-    background-color:#E6E6FA;
+    background-color:#FFFAF0;
     padding:40px 70px;
     width:100%;
-    border-top:1px solid #d3d8da;
+    border:none;
 }
 .portofollio img{
     border-radius:15px;
+    
 }
 nav ul{
 	margin:0px;
 	padding:0px;
+	
 }
 nav li{
 	list-style-type:none;
 	float:left;
 	
+	
 }
 nav a{
-	display:inline-block;
+	display:inline-table;
 	text-decoration: none;
 	padding:20px 30px;
 	color:black;
 	text-transform: uppercase;
 	font-size:15px;
-	
+
 }
 .nav-bar{
-	display:inline-table;
-	margin:0 auto;
-    border-top:1px solid #d3d8da;
-	border-bottom:1px solid #d3d8da;
+	display:inline-block;
+    border:1px solid #d3d8da;
+    margin: 0 300px;
+    /*margin:0 auto; */
+    width:750px;
+    /*width750 */
+    background-color:white;
+    opacity: 0.8;
 
 }
 nav li:hover{
@@ -228,5 +286,5 @@ nav li:hover{
 	font-weight: bold;
 }
 nav a:hover{
-    color:#1b3a51;
+    color:cadetblue;
 }
