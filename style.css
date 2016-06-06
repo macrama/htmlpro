@@ -78,7 +78,7 @@ section{
 	min-height:400px;
 	padding-bottom:0px;
 	margin:0px;
-	background-color:#66CDAA;
+    background-color:#66CDAA;
 }
 .sec{
 	margin:0px 10%;
@@ -87,6 +87,7 @@ section{
 .competences{
     background-image: url(desert.jpg);
     background-repeat: no-repeat;
+    background-size: cover;
 }
 .left{
 	float:left;
@@ -110,6 +111,16 @@ section{
 	display:table;
 	clear:both;
 }
+.cont{
+    background-color:#FFFAF0;
+    padding:40px 30px;
+    width:100%;
+    border:none;
+    background-image: url(ecriture-clavier.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
 input[type=submit]{
     background-color:#325723;
     color: white;
@@ -125,11 +136,12 @@ textarea {
     width: 100%;
     height:150px;
     padding: 12px 20px;
-    box-sizing: border-box;
-    border: 2px solid #ccc;
-    border-radius: 4px;
+    box-sizing:padding-box;
+    border: 2px solid #696969;
+    border-radius: 1px;
     background-color: #f8f8f8;
     resize: none;
+    
 }
 
 input[type=text]:focus {
@@ -154,6 +166,7 @@ aside{
     border-radius:5px;
     padding:0px;
     margin:0px;
+    
 }
 @media screen and (max-width:780px){
 	header{
