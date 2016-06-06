@@ -1,176 +1,114 @@
 body{
     font-family:"Century Gothic", Calibri, serif;
-    
-    
+	font-size:13px;
+	margin:0px;
+	padding:0px;
 }
-.main-header{
-    background-image: url(studio.jpg);
-    background-clip: padding-box;
+ h1{
+	font-size:30px;
+	font-weight:normal;
+	text-align:center;
+	color:black;
+	
+}
+header{
+	height:700px;
+	background-color: #008080;
+	background-repeat: no-repeat;
+	opacity:0.8;
+	
+}
+nav{
+	width:100%;
+	background-color:white;
+	color:black;
+}
+footer{
+	height:80px;
+	padding-top:30px;
+	text-align:center;
+	background-color:#F5F5F5;
+	border:none;
+	color:#696969;
+	font-size: large;
+	font-weight:500;
+}
+nav ul{
+	margin:0px;
+	padding:0px;
+}
+nav li{
+	list-style-type:none;
+	float:left;
+}
+nav a{
+	display:inline-block;
+	text-decoration: none;
+	padding:20px 30px;
+	color:black;
+	text-transform: uppercase;
+	font-size:15px;
+	
+}
+.table{
+	display:table;
+	margin:0 auto;
+}
+.menu-ind:hover{
+	border-top:5px solid #4C8;
+	background-color: RGBa(64, 200, 130, 0.15);
+}
+.menu-exp:hover{
+	border-top:5px solid #f1dc4f;
+	background-color: RGBa(241, 211, 79, 0.15);
+}
+.menu-hob:hover{
+	border-top:5px solid #007088;
+	background-color: RGBa(000, 112, 192, 0.15);
+}
+.menu-con:hover{
+	border-top:5px solid #e44d26;
+	background-color: RGBa(228, 77, 38, 0.15);
+}
+nav li:hover a{
+	padding:15px 30px 20px 30px;
+}
+section{
+	width:100%;
+	min-height:400px;
+	padding-bottom:0px;
+	margin:0px;
+	background-color:#66CDAA;
+}
+.sec{
+	margin:0px 10%;
+	padding-bottom: 20px;
+}
+.competences{
+    background-image: url(desert.jpg);
     background-repeat: no-repeat;
-    width: 100%;
-    height:700px;
-    top:0;
-    
-
-     
-     
 }
-.part-of-header{
-    background:white;
-    top:250px;
-    position: relative;
-    height:300px;
-    width:400px;
-    padding-left:45px;
-    padding-top:50px;
-    margin-left:100px;
-    border:none;
-    
-    
-    
+.left{
+	float:left;
+	width:30%;
+	font-size:300px;
+	
 }
-.part-of-header a{
-    background-color:#EE3B3B;
-    color:white;
-    font-weight:bold;
-    border-radius: 10px;
-    text-decoration:none;
-    background-clip: padding-box;
-    padding: 10px;
+.right{
+	float:left;
+	width:70%;
+	font-weight: bold;
+	margin-top:50px;
+	background-color: white;
 }
-.part-of-header a:hover{
-    padding:11px;
-    box-shadow:5px 5px 5px  #A52A2A;
-    /* je doi ajouter le shadow*/
+.cleft,.cright,.sousleft,.sousright{
+	width:50%;
+	float:left;
 }
-.part-of-header h2,h4{
-    color:#1b3a51;
-    text-transform: uppercase;
-}
-.part-of-header p{
-    color:#838B8B;
-    position: relative;
-    left:5px;
-    top:5px;
-}
-.div3 p{
-    left:200px;
-}
-.div4 p{
-    left:200px;
-}
-.div2 p{
-    left:200px;
-    
-}
-.div1 p{
-    left:200px;
-    
-    
-}
-.nom , .date , .web , .histo{
-    background-color:white;
-    position:relative;
-    width: 250px;
-    height:100px;
-    padding-top: 10px;
-    border-radius:20px;
-}
-.web{
-    bottom:360px;
-    left:800px;
-    height: 100px;
-    
-}
-.nom{
-    bottom:150px;
-    left:150px;
-    height:100px;
-}
-.date{
-    bottom:120px;
-    left:150px;
-    height: 100px;
-    
-}
-.histo{
-    bottom:200px;
-    left:500px;
-    height: 350px;
-    padding-left:20px;
-    padding-right: 20px;
-}
-.div-first-section p{
-    color:black;
-}
-.div-first-section{
-    background-color:#FFFAF0;
-    border:none;
-    padding:30px;
-    text-align:center;
-    position: relative;
-    margin:0 auto;
-}
-.div-first-section  h1 {
-    color:#1b3a51;
-}
-.div-first-section img{
-    border-radius:100px;
-    
-    
-}
-.div-first-section img:hover{
-    border:2px #1b3a51 solid;
-
-}
-.div-second{
-    background-color:white;
-    
-    height:600px;
-    padding-top:30px;
-    padding-left:150px;
-    padding-right:150px;
-    text-align: center;
-    position: relative;
-    margin-top:20px;
-    margin-bottom: 20px;
-    
-}
-.div-second p {
-    width: 100px;
-    height: 100px;
-    border-radius: 50px;
-    border:4px solid  #EE3B3B;
-    font-size:30px;
-    position: relative;
-    text-align:center;
-}
-.div-second h1{
-    color:#1b3a51;
-    text-align: center;
-    margin-bottom:40px;
-    
-}
-.div1 , .div2 , .div3 , .div4{
-    float:left;
-    position: relative;
-    text-align: center;
-    width:50%;
-}
-.edu{
-    text-align: center;
-}
-.edu h1{
-    margin-bottom: 100px;
-}
-.edu p{
-    background-color:#FFFAF0; 
-    position: relative;
-    text-align: left;
-    width:600px;
-    margin-left: 200px;
-    overflow: scroll;
-    height: 300px;
+.sec::after,.exp::after,.reco::after{
+	content:**;
+	display:table;
+	clear:both;
 }
 input[type=submit]{
     background-color:#325723;
@@ -202,42 +140,9 @@ input[type=tel]:focus{
 }
 input[type=email]:focus{
     border: 3px solid #124523;
-
-}
-#hidden{
-    text-align: center;
-    position:relative;
-    bottom:-250px;
-}
-#hidden h1{
-    margin-bottom: 40px;
 }
 aside{
-    background-color:#FFFAF0;
-    
     border:none;
-    position:relative;
-    bottom:600px;
-    width:300px;
-    left:1000px;
-
-}
-.reco{
-    background-color:#FFFAF0;
-    width:500px;
-    margin:0 auto;
-}
-.footer-st{
-    background-color:#E6E6FA;;
-    /*c7c7c7*/
-    color:black;
-    width:100%;
-    height:80px;
-    position:absolute;
-	padding: 30px 0;
-	text-align:center;
-	border-top:1px solid #d3d8da;
-	
 }
 .portofollio{
     background-color:#FFFAF0;
@@ -246,45 +151,23 @@ aside{
     border:none;
 }
 .portofollio img{
-    border-radius:15px;
-    
+    border-radius:5px;
+    padding:0px;
+    margin:0px;
 }
-nav ul{
-	margin:0px;
-	padding:0px;
-	
-}
-nav li{
-	list-style-type:none;
-	float:left;
-	
-	
-}
-nav a{
-	display:inline-table;
-	text-decoration: none;
-	padding:20px 30px;
-	color:black;
-	text-transform: uppercase;
-	font-size:15px;
-
-}
-.nav-bar{
-	display:inline-block;
-    border:1px solid #d3d8da;
-    margin: 0 300px;
-    /*margin:0 auto; */
-    width:750px;
-    /*width750 */
-    background-color:white;
-    opacity: 0.8;
-
-}
-nav li:hover{
-	border-bottom:5px solid #27408B;
-	color:white;
-	font-weight: bold;
-}
-nav a:hover{
-    color:cadetblue;
+@media screen and (max-width:780px){
+	header{
+		height:50px;
+	}
+	h1{
+		font-size:28px;
+		margin:20px 0px 0px 0px;
+	}
+	nav li a{
+		font-size:12px;
+		padding:10px;
+	}
+	nav li:hover a{
+		padding:5px 10px 10px 10px;
+	}
 }
