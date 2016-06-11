@@ -1,9 +1,14 @@
 body{
     font-family:"Century Gothic", Calibri, serif;
 	font-size:13px;
-	margin:0px;
+	margin:50px;
 	padding:0px;
-	
+	/*Century Gothic", Calibri, serif*/
+}
+p{
+	color:#123241;
+	font-size:larger;
+	font-weight:500;
 }
 header-div{
 	position:relative;
@@ -22,6 +27,9 @@ div .myname{
 	background-color: white;
 	opacity:0.7;
 	
+}
+.philosophie h3{
+	color:#123241;
 }
 h3{
 	color:#FFa500;
@@ -58,7 +66,14 @@ progress{
 	height:10px;
 	/*margin-bottom:30px;*/
 	margin-bottom:10px;
-	background-color: gray;
+	
+}
+.third{
+	padding-left:60px;
+}
+.first{
+	background-color:#FFFFF0;
+	
 }
 .third h4{
 	margin:0px;
@@ -151,6 +166,12 @@ section .left, .right , .agright{
 	margin-left: 40px;
 	border-bottom:1px solid #DCDCDC;
 	
+}
+h4{
+	color:#123241;
+}
+p:first-of-type {
+	text-indent:10px;
 }
 .cont{
     background-image: url(hone.jpg);
