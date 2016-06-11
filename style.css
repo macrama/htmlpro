@@ -12,7 +12,22 @@ p{
 }
 header-div{
 	position:relative;
-	
+}
+.first p:last-of-type{
+	width:100px;
+	background-color:#123245;
+	color:white;
+	border-radius:5px;
+	padding:10px;
+	font-size: large;
+	font-weight: bolder;
+	border:none;
+}
+.some{
+	background-image: url(desert.jpg);
+	height:250px;
+	opacity:0.6;
+	margin-top:0;
 }
 div .myname h1{
 	color:#FFA500;
@@ -61,6 +76,17 @@ nav{
 	position:fixed;
 	height:50px;
 }
+.parcours{
+	background-color:#C0C0C0;
+	background-repeat:no-repeat;
+	background-size: cover;
+	opacity:0.8;
+}
+.exp, .expo{
+	float:left;
+	width:50%;
+
+}
 progress{
 	width:300px;
 	height:10px;
@@ -88,6 +114,12 @@ section .second , .first , .third , #photo{
 	float:left;
 	width:25%;
 	margin-left:20px;
+}
+.customer ,.coffe  h4{
+	text-align:left;
+	width:500px;
+	float: left;
+
 }
 footer .my-footer{
 	height:50px;
@@ -228,7 +260,6 @@ input[type=email]{
     border-radius:5px;
     padding:0px;
     margin:0px;
-    
 }
 @media screen and (max-width:780px){
 	header{
