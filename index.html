@@ -5,6 +5,9 @@
     <title>final projet</title>
     <link href="style.css" rel="stylesheet" type="text/css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" media="(min-width: 800px)" href="layout-lg.css">
+    <link rel="stylesheet" media="(min-width: 600px) and (max-width: 799px)" href="layout-md.css">
+    <link rel="stylesheet" media="(max-width: 599px)" href="layout-sm.css">
     <link rel="shortcut icon" href="can.jpg"/>
 </head>
 <body>
@@ -16,8 +19,7 @@
          </div>
     </header>
     	<nav>
-			<div class="table">
-				<ul>
+				<ul class="toolbar">
 					<li class="menu-ind">
 						<a href="index.html">Accueil</a>
 					</li>
@@ -31,7 +33,6 @@
 						<a href="index2.html">Contact Me</a>
 					</li>
 				</ul>
-			</div>
     	</nav>
     	<article>
             <section class="presentation">
@@ -56,28 +57,27 @@
 						<div class="first">
 							<p>"Found what you love, do what you love,love what you do"
 							I am engeneer , web develloper  , passionate , intelligent </p>
-							<a href="https://www.instagram.com/raens82/"><img src="instagram.png" alt="icon" width="27px" height="27px"></a>
-							<a href="https://www.facebook.com/rama.kitenge"><img src="facebook.png" alt="icon" width="27px" height="27px"></a>
-							<a href="https://www.pinterest.com/macraens198/"><img src="pint.jpg" alt="icon" width="27px" height="27px"></a>
-							<h3>+380637665192, macraens198@gmail.com</h3>
+							
+							<h3>+380637665192</h3>
 						</div>
 						<div id="photo">
-							<img src="me.jpg" width="200px" height="200px">
+							<img src="me.jpg" alt="moi" width="200" height="200">
 						</div>
 				<div class="third">
 					<h4>HTML</h4>
-					<progress min="0" max="100" value="50"></progress>
+					<progress  max="100" value="50"></progress>
 					<h4>CSS</h4>
-					<progress min="0" max="100" value="50"></progress>
+					<progress  max="100" value="50"></progress>
 					<h4>PHP & MSQL</h4>
-					<progress min="0" max="100" value="50"></progress>
+					<progress  max="100" value="50"></progress>
 					<h4>JAVA SCRIPT</h4>
-					<progress min="0" max="100" value="70"></progress>
+					<progress  max="100" value="70"></progress>
 				</div>
 			</section>
-			<section>
+			<section class="fact">
 				<div class="round">
-					<canvas id="myCanvas" width="200" height="200" style="border:none;">
+					<canvas id="myCanvas" width="200" height="200" style="border:none;"></canvas>
+					<h4>WATER DRANK PER DAY</h4>
 				</div>
 				<script>
 					var c = document.getElementById("myCanvas");
@@ -92,7 +92,8 @@
 					ctx.stroke();
 				</script>
 				<div class="coffee">
-					<canvas id="Canvas" width="200" height="200" style="border:none;">
+					<canvas id="Canvas" width="200" height="200" style="border:none;"></canvas>
+					<H4>SATISFIED CUSTOMERS</H4>
 				</div>
 				<script>
 					var c = document.getElementById("Canvas");
@@ -107,7 +108,8 @@
 					ctx.stroke();
 				</script>
 				<div class="water">
-					<canvas id="my" width="200" height="200" style="border:none;">
+					<canvas id="my" width="200" height="200" style="border:none;"></canvas>
+					<h4>SERVICE QUALITY </h4>
 				</div>
 				<script>
 					var c = document.getElementById("my");
@@ -129,11 +131,11 @@
          				<h2>MY TEAM</h2> 
          			</div>
          			<div class="photo-first">
-         				<img src="me.jpg" width="200px" height="200px">
+         				<img src="me.jpg" alt="photo" width="200" height="200">
          				<p>ggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggg</p>
          			</div>
          			<div class="photo-second">
-         				<img src="me.jpg" width="200px" height="200px">
+         				<img src="me.jpg" alt="photo" width="200" height="200">
          				<p>dydfuasffjinxmicn</p>
          			</div>
          		</div>
@@ -180,10 +182,14 @@
 					</div>
          </section>
     </article>
+    <footer>
+        <div class="myfooter"><h4>&copy; Copyright 2016 Mukumbi Rama - Toute reproduction interdite</h4></div>  
+    </footer>
+    
+   	<script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+   	<script src="jquery.min.js"></script>
+   	<script src="jquery.scrolly.min.js"></script>
+   	<script src="jquery.scrollzer.min.js"></script>
     <script  src="index.js"></script>
-    <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
-        <footer>
-        	 	<div class="myfooter"><h4>&copy; Copyright 2016 Mukumbi Rama - Toute reproduction interdite</h4></div>  
-        </footer>
 </body>
 </html>

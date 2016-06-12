@@ -13,9 +13,9 @@ p{
 	font-size:larger;
 	font-weight:500;
 }
-header-div{
+/*header-div{
 	position:relative;
-}
+}*/
 .photo-first, .photo-second {
 	float:left;
 	width:50%;
@@ -42,11 +42,11 @@ div .myname h1{
 	color:#FFA500;
 }
 div .myname{
-	position: absolute;
+	/*position: absolute;*/
 	top:300px;
 	height: 200px;
 	color:black;
-	width: 100%;
+	width: 1200px;
 	border:3px solid white;
 	background-color: white;
 	opacity:0.7;
@@ -71,6 +71,7 @@ header{
 	background-repeat:repeat-x;
 	opacity:0.8;
 	background-size:contain;
+
 }
 
 nav{
@@ -111,9 +112,8 @@ section .second , .first , .third , #photo{
 	width:25%;
 	margin-left:20px;
 }
-.customer ,.coffe  h4{
-	text-align:left;
-	width:500px;
+.round ,.coffee , .water{
+	width:33%;
 	float: left;
 }
 .parcours{
@@ -131,15 +131,23 @@ footer .myfooter{
 	background-color: black;
 	opacity:0.8;
 }
-nav ul{
+/*nav ul{
 	margin:0px;
 	padding:0px;
-}
-nav li{
+}*/
+/*nav li{
 	list-style-type:none;
 	float:left;
+}*/
+.toolbar li {
+	display: inline;
+	background-color: #EEE;
+	border: 1px solid;
+	border-color: #F3F3F3 #BBB #BBB #F3F3F3;
+	margin: 2px;
+	padding: .5em;
 }
-nav a{
+/*nav a{
 	display:inline-block;
 	text-decoration: none;
 	padding:10px 30px;
@@ -148,7 +156,7 @@ nav a{
 	font-size:15px;
 	font-weight:500;
 	
-}
+}*/
 nav a:hover{
 	color:#FFA500;
 }
@@ -174,6 +182,30 @@ nav li:hover a{
 section{
 	width:100%;
 	height:550px;
+	margin:0px;
+    background-color:white;
+}
+.parcours{
+	width:100%;
+	height:700px;
+	margin:0px;
+    background-color:gray;
+}
+.philosophie{
+	width:100%;
+	height:400px;
+	margin:0px;
+    background-color:white;
+}
+.presentation{
+	width:100%;
+	height:400px;
+	margin:0px;
+    background-color:white;
+}
+.fact{
+	width:100%;
+	height:300px;
 	margin:0px;
     background-color:white;
 }
@@ -261,19 +293,5 @@ input[type=email]{
     padding:0px;
     margin:0px;
 }
-@media screen and (max-width:780px){
-	header{
-		height:50px;
-	}
-	h1{
-		font-size:28px;
-		margin:20px 0px 0px 0px;
-	}
-	nav li a{
-		font-size:12px;
-		padding:10px;
-	}
-	nav li:hover a{
-		padding:5px 10px 10px 10px;
-	}
-}
+@media screen and (min-width:961px) and (max-width:1880px){
+	

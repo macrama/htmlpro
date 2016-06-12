@@ -4,28 +4,16 @@ $('#btn-send').click(function(e) {
       url: "https://formspree.io/macraens198@gmail.com",  
       method: "POST",
       error: function () {
-        $('#container').html('<h1>hi</h1>')
+        $('#container').html('<h1>Error!</h1>')
       },
       data: {
-             email: email.value,
-             message: area.value,
-             tel:phone.value
+             email: mail.value,
+             message: area.value
+            
              },
       dataType: "json"
   }).done(function() {
-     $('#container').html('<p>Good bye!</p>')
-     
+     $('#container').html('<h1>Thank you!</h1>')
   } );
   e.preventDefault();
 });
-
-
-var c = document.getElementById("myCanvas");
-var ctx = c.getContext("2d");
-
-ctx.beginPath();
-ctx.arc(100,100,90,0,1*Math.PI);
-ctx.font = "30px Arial";
-ctx.strokeText("30%",80,100);
-ctx.strokeStyle = "#FFA500";
-ctx.stroke();
