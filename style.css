@@ -1,8 +1,11 @@
 body{
     font-family:"Century Gothic", Calibri, serif;
 	font-size:13px;
-	margin:50px;
+	/*margin:0px;*/
 	padding:0px;
+	margin-right: 100px;
+	margin-left: 100px;
+	margin-bottom:0px;
 	/*Century Gothic", Calibri, serif*/
 }
 p{
@@ -13,21 +16,27 @@ p{
 header-div{
 	position:relative;
 }
-.first p:last-of-type{
-	width:100px;
-	background-color:#123245;
-	color:white;
-	border-radius:5px;
-	padding:10px;
-	font-size: large;
-	font-weight: bolder;
-	border:none;
+.photo-first, .photo-second {
+	float:left;
+	width:50%;
+	height:300px;
+	word-wrap: break-word;
+	text-align: center;
 }
 .some{
-	background-image: url(desert.jpg);
+	background-image: url(hone.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
 	height:250px;
-	opacity:0.6;
+	opacity:0.8;
 	margin-top:0;
+	border:none;
+}
+.some img{
+	border-radius:100px;
+}
+.someWord{
+	padding-top:30px;
 }
 div .myname h1{
 	color:#FFA500;
@@ -42,9 +51,6 @@ div .myname{
 	background-color: white;
 	opacity:0.7;
 	
-}
-.philosophie h3{
-	color:#123241;
 }
 h3{
 	color:#FFa500;
@@ -75,16 +81,6 @@ nav{
 	top:0;
 	position:fixed;
 	height:50px;
-}
-.parcours{
-	background-color:#C0C0C0;
-	background-repeat:no-repeat;
-	background-size: cover;
-	opacity:0.8;
-}
-.exp, .expo{
-	float:left;
-	width:50%;
 
 }
 progress{
@@ -119,17 +115,20 @@ section .second , .first , .third , #photo{
 	text-align:left;
 	width:500px;
 	float: left;
-
 }
-footer .my-footer{
-	height:50px;
+.parcours{
+	background-color:#D3D3D3;
+}
+footer .myfooter{
+	height:100px;
 	text-align:center;
-	background-color:black;
 	border:none;
 	color:white;
 	font-size: large;
 	font-weight:500;
-	padding-top: 10px;
+	margin-top:0px;
+	padding-top:5px;
+	background-color: black;
 	opacity:0.8;
 }
 nav ul{
@@ -174,12 +173,12 @@ nav li:hover a{
 }
 section{
 	width:100%;
-	height:400px;
+	height:550px;
 	margin:0px;
     background-color:white;
-   
-    
- 
+}
+.parcours{
+	text-align:center;
 }
 h2{
 	text-align: center;
@@ -192,7 +191,8 @@ h2{
 }
 section .left, .right , .agright{
 	float:left;
-	width:30%;
+	/*width:30%;*/
+	width:25%;
 	height:200px;
 	margin-top:40px;
 	margin-left: 40px;
@@ -205,50 +205,50 @@ h4{
 p:first-of-type {
 	text-indent:10px;
 }
+.contact{
+	float:left;
+	padding-right:20px;
+}
 .cont{
-    background-image: url(hone.jpg);
-    opacity:0.8;
-    padding-left:20px;
-    width:50%;
+    opacity:0.9;
+    width:500px;
     border:none;
-    background-repeat: no-repeat;
-    background-position:bottom left;
-    margin-top:80px;
-    height:500px;
+    height:425px;
+    float: left;
 }
 input[type=submit]{
-    background-color:;
+    background-color:black;
     color: white;
-    border:none;
+    border:2px solid white;
     padding: 8px 4px;
    text-decoration:none;
     margin: 1px 2px;
     cursor:pointer;
-    border-radius:20px;
+    
 
 }
 textarea {
-    width:50%;
+    width:380px;
     height:150px;
-    box-sizing:padding-box;
-    border: 2px solid #696969;
-    border-radius: 1px;
-    resize: none;
-    
+	resize: none;
+	margin-top:20px;
     
 }
 
 input[type=text] {
-    width: 300px;
+   width: 110px;
     height:25px;
+  
 }
 input[type=tel]{
-     width: 300px;
+    width: 110px;
     height:25px;
+  
 }
 input[type=email]{
-     width: 300px;
+    width: 110px;
     height:25px;
+ 
 }
 .portofollio{
     background-color:#FFFAF0;

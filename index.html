@@ -50,21 +50,19 @@
 					<div class="agright">
 						<h3>I PROVIDE</h3>
 						<p>Good service  expecially nice website , good in photoshop.Give you some advise about how to be successfull and productive in life , about to optimize your web site ,how to develllop your codes skills  </p>
-						<p> I am undergraduate in Chemical and chemical technologie</p>
 				    </div>
 			</section>
             <section class="philosophie">
-            		<div id="photo">
-            			<h3>MY PHYLLOSOPHIE</h3>
-						<img src="me.jpg" width="200px" height="200px">
-					</div>
 						<div class="first">
-							<h3>Found what you love, do what you love,love what you do</h3>
-							<p>I am engeneer , web develloper  , passionate , intelligent .I</p>
+							<p>"Found what you love, do what you love,love what you do"
+							I am engeneer , web develloper  , passionate , intelligent </p>
 							<a href="https://www.instagram.com/raens82/"><img src="instagram.png" alt="icon" width="27px" height="27px"></a>
 							<a href="https://www.facebook.com/rama.kitenge"><img src="facebook.png" alt="icon" width="27px" height="27px"></a>
 							<a href="https://www.pinterest.com/macraens198/"><img src="pint.jpg" alt="icon" width="27px" height="27px"></a>
-							<p>See my CV</p>
+							<h3>+380637665192, macraens198@gmail.com</h3>
+						</div>
+						<div id="photo">
+							<img src="me.jpg" width="200px" height="200px">
 						</div>
 				<div class="third">
 					<h4>HTML</h4>
@@ -88,34 +86,66 @@
 					ctx.beginPath();
 					ctx.arc(100,100,90,0,3/2*Math.PI);
 					ctx.font = "50px Arial";
-					ctx.strokeText("20%",60,110);
+					ctx.strokeText("80%",60,110);
 					ctx.strokeStyle = "#ffa500";
 					ctx.scale(2.5,4.5);
 					ctx.stroke();
 				</script>
-				<div class="customer">
-					<h4>Customers satisfied</h4>
-				</div>
 				<div class="coffee">
-					<h4>Coffe drank</h4>
+					<canvas id="Canvas" width="200" height="200" style="border:none;">
 				</div>
+				<script>
+					var c = document.getElementById("Canvas");
+					var ctx = c.getContext("2d");
+
+					ctx.beginPath();
+					ctx.arc(100,100,90,0,1/2*Math.PI);
+					ctx.font = "50px Arial";
+					ctx.strokeText("30%",60,110);
+					ctx.strokeStyle = "#ffa500";
+					ctx.scale(2.5,4.5);
+					ctx.stroke();
+				</script>
+				<div class="water">
+					<canvas id="my" width="200" height="200" style="border:none;">
+				</div>
+				<script>
+					var c = document.getElementById("my");
+					var ctx = c.getContext("2d");
+
+					ctx.beginPath();
+					ctx.arc(100,100,90,0,2*Math.PI);
+					ctx.font = "50px Arial";
+					ctx.strokeText("100%",60,110);
+					ctx.strokeStyle = "#ffa500";
+					ctx.scale(2.5,4.5);
+					ctx.stroke();
+				</script>
+				
 			</section>
 			<section>
 				<div class="some">
     				<div class="someWord">
-         				<h1>"Perfection is achieved ,not when there is nothing more to add , but when there is nothing left to take away"</h1> 
+         				<h2>MY TEAM</h2> 
+         			</div>
+         			<div class="photo-first">
+         				<img src="me.jpg" width="200px" height="200px">
+         				<p>ggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggg</p>
+         			</div>
+         			<div class="photo-second">
+         				<img src="me.jpg" width="200px" height="200px">
+         				<p>dydfuasffjinxmicn</p>
          			</div>
          		</div>
 			</section>
              <section class="parcours">
-					<h2>WORK</h2>
 					<div class="seco">
 						<h2>Experiences professionnelles</h2>
 						<div class="exp">
-							<div class="lefto">
-								<h3>2013-2015</h3>
+							<div class="go-left">
+								<h3>2013</h3>
 							</div>
-							<div class="righto">
+							<div class="go-right">
 								<h3>Devellopper-rama-kitenge.com</h3>
 								<p>Createur du site rama-kitenge.com et de tutoriels videos concernant les langages de programmation</p>
 							</div>
@@ -153,13 +183,7 @@
     <script  src="index.js"></script>
     <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
         <footer>
-        		<div class="my-footer">
-             	<!--<a href="https://www.facebook.com/rama.kitenge"><img src="facebook.png" alt="icon" width="30px" height="30px"></a>
-            	<a href="https://www.instagram.com/raens82/"><img src="instagram.png" alt="icon" width="30px" height="30px"></a>
-           		<a href="https://www.pinterest.com/macraens198/"><img src="pint.jpg" alt="icon" width="30px" height="30px"></a>
-        	 <!-- en bas je dois choisirs une couleur blanche peux etre et mettre les icones facebook instagram et consort surtout des icones simples ou encors reproduire le header ici-->
-        	 	<p>&copy; Copyright 2016 Mukumbi Rama - Toute reproduction interdite</p>  
-        	 	</div>
+        	 	<div class="myfooter"><h4>&copy; Copyright 2016 Mukumbi Rama - Toute reproduction interdite</h4></div>  
         </footer>
 </body>
 </html>
