@@ -8,7 +8,7 @@ $('#btn-send').click(function(e) {
       },
       data: {
              email: mail.value,
-             message: area.value
+             message: nom.value
             
              },
       dataType: "json"

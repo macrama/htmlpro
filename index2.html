@@ -4,14 +4,18 @@
     <meta charset="UTF-8">
     <title>final projet</title>
     <link href="style.css" rel="stylesheet" type="text/css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" media="(min-width: 800px)" href="layout-lg.css">
+    <link rel="stylesheet" media="(min-width: 600px) and (max-width: 799px)" href="layout-md.css">
+    <link rel="stylesheet" media="(max-width: 599px)" href="layout-sm.css">
+    <link rel="shortcut icon" href="can.jpg"/>
     
 </head>
 <body>
        <nav>
-			<div class="table">
-				<ul>
+			<ul class="toolbar">
 					<li class="menu-ind">
-						<a href="index.html">Home</a>
+						<a href="index.html">Accueil</a>
 					</li>
 					<li class="menu-exp">
 						<a href="work.html">Work</a>
@@ -23,8 +27,8 @@
 						<a href="index2.html">Contact Me</a>
 					</li>
 				</ul>
-			</div>
-		</nav>
+    	</nav>
+    	<article>
          <section>
              <h2>CONTACT ME</h2>
                  <h3>+380637665192</h3>
@@ -38,11 +42,11 @@
                      </div>
                      <div class="contact">
                         <label for="nom"></label>
-                            <input type="text" name="text" id="nom"  placeholder="Nom" />
+                            <input type="text" name="text" id="nom"  placeholder="NAME" />
                      </div>
                      <div class="contact">
                         <label for="phone"></label>
-                            <input type="tel" name="tel" id="phone" required placeholder="votre numero "/>
+                            <input type="tel" name="tel" id="phone" required placeholder="NUMB "/>
                      </div>
                         <label for="area"></label>
                             <textarea id="area" name="area" ></textarea><br><br>
@@ -50,11 +54,19 @@
                         </form>
                 </div>
          </section>
-    </article>
-     <footer>
+         <footer class="myfooter">
+        	    <p>&copy; Copyright 2016 Mukumbi Rama - Toute reproduction interdite</p>
+            </footer>  
+     <!--<footer>
          <div class="myfooter">
              <p>&copy; Copyright 2016 Mukumbi Rama - Toute reproduction interdite</p> 
         </div>
-    </footer>
+    </footer>-->
+    </article>
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+   	<script src="jquery.min.js"></script>
+   	<script src="jquery.scrolly.min.js"></script>
+   	<script src="jquery.scrollzer.min.js"></script>
+    <script  src="index.js"></script>
 </body>
 </html>

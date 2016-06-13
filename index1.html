@@ -5,11 +5,14 @@
     <title>final projet</title>
     <link href="style.css" rel="stylesheet" type="text/css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" media="(min-width: 800px)" href="layout-lg.css">
+    <link rel="stylesheet" media="(min-width: 600px) and (max-width: 799px)" href="layout-md.css">
+    <link rel="stylesheet" media="(max-width: 599px)" href="layout-sm.css">
+    <link rel="shortcut icon" href="can.jpg"/>
 </head>
 <body>
-       <nav>
-			<div class="table">
-				<ul>
+           <nav>
+				<ul class="toolbar">
 					<li class="menu-ind">
 						<a href="index.html">Accueil</a>
 					</li>
@@ -23,20 +26,29 @@
 						<a href="index2.html">Contact Me</a>
 					</li>
 				</ul>
-			</div>
-		</nav>
-         <section> 
+    	</nav>
+    	<article>
+             <section> 
                 <div class="portofollio">
                     <h2>Portofollio</h2>
                     <a href="vente.pdf" target="_blank"><img src="certcs.jpg"alt="boy" width="300" height="300"></a>
                     <img src="me.jpg" alt="my-pict" width="300" heihgt="300">
                     <img src="rama.jpg" alt="pict" width="300" height="300">
                 </div>
-         </section>
-         <footer > 
+             </section>
+             <footer class="myfooter">
+        	    <p>&copy; Copyright 2016 Mukumbi Rama - Toute reproduction interdite</p>
+            </footer>  
+        <!-- <footer > 
             <div class="myfooter">
                  <p>&copy; Copyright 2016 Mukumbi Rama - Toute reproduction interdite</p>  
             </div>
-        </footer>
+        </footer>-->
+    </article>
+        <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+   	<script src="jquery.min.js"></script>
+   	<script src="jquery.scrolly.min.js"></script>
+   	<script src="jquery.scrollzer.min.js"></script>
+    <script  src="index.js"></script>
 </body>
 </html>

@@ -13,9 +13,9 @@ p{
 	font-size:larger;
 	font-weight:500;
 }
-/*header-div{
+header-div{
 	position:relative;
-}*/
+}
 .photo-first, .photo-second {
 	float:left;
 	width:50%;
@@ -32,25 +32,13 @@ p{
 	margin-top:0;
 	border:none;
 }
-.some img{
-	border-radius:100px;
-}
 .someWord{
 	padding-top:30px;
 }
-div .myname h1{
-	color:#FFA500;
-}
 div .myname{
-	/*position: absolute;*/
+	position: absolute;
 	top:300px;
-	height: 200px;
-	color:black;
-	width: 1200px;
-	border:3px solid white;
-	background-color: white;
-	opacity:0.7;
-	
+	left:600px;
 }
 h3{
 	color:#FFa500;
@@ -119,7 +107,7 @@ section .second , .first , .third , #photo{
 .parcours{
 	background-color:#D3D3D3;
 }
-footer .myfooter{
+footer {
 	height:100px;
 	text-align:center;
 	border:none;
@@ -141,11 +129,23 @@ footer .myfooter{
 }*/
 .toolbar li {
 	display: inline;
-	background-color: #EEE;
-	border: 1px solid;
-	border-color: #F3F3F3 #BBB #BBB #F3F3F3;
-	margin: 2px;
+	background-color:white;
+	opacity:0.8;
+	margin: 10px;
 	padding: .5em;
+	text-transform: uppercase;
+	
+	
+	
+}
+.toolbar a{
+	text-align: center;
+	text-decoration: none;
+	color:black;
+	font-size: larger;
+}
+.toolbar{
+	text-align: center;
 }
 /*nav a{
 	display:inline-block;
@@ -165,19 +165,20 @@ nav a:hover{
 	margin:0 auto;
 }
 .menu-ind:hover{
-	border-top:1px solid#FFA500;
+	border-top:2px solid#FFA500;
+	
 }
 .menu-exp:hover{
-	border-top:1px solid#FFA500;
+	border-top:2px solid#FFA500;
 }
 .menu-hob:hover{
-	border-top:1px solid#FFA500;
+	border-top:2px solid#FFA500;
 }
 .menu-con:hover{
-	border-top:1px solid#FFA500;
+	border-top:2px solid#FFA500;
 }
 nav li:hover a{
-	padding:15px 30px 20px 30px;
+	
 }
 section{
 	width:100%;
@@ -199,7 +200,7 @@ section{
 }
 .presentation{
 	width:100%;
-	height:400px;
+	height:500px;
 	margin:0px;
     background-color:white;
 }
@@ -228,7 +229,6 @@ section .left, .right , .agright{
 	height:200px;
 	margin-top:40px;
 	margin-left: 40px;
-	border-bottom:1px solid #DCDCDC;
 	
 }
 h4{
@@ -284,7 +284,6 @@ input[type=email]{
 }
 .portofollio{
     background-color:#FFFAF0;
-    padding:40px 70px;
     width:100%;
     border:none;
 }
@@ -293,5 +292,66 @@ input[type=email]{
     padding:0px;
     margin:0px;
 }
-@media screen and (min-width:961px) and (max-width:1880px){
-	
+@media screen and (max-width:780px){
+	h2 {
+	font-size:25px;
+	font-weight:300;
+	}
+	p{
+	color:#123241;
+	font-size:12px;
+	font-weight:100;
+	}
+	section .left, .right , .agright{
+	display: table;
+	/*width:30%;*/
+	width:50%;
+	height:20px;
+	overflow: hidden;
+	}
+	.fact{
+    display: none;
+	}
+	.photo-first, .photo-second {
+	display:table;
+	width:25%;
+	height:150px;
+	word-wrap: break-word;
+	text-align: center;
+	}
+	section .second , .first , .third , #photo{
+	display:table;
+	width:10%;
+	text-align:center;
+	/*margin-left:20px;*/
+	}
+	.someWord{
+	padding:0;
+	}
+	.some{
+	background-image: none;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height:50px;
+	opacity:0.8;
+	margin-top:0;
+	border:none;
+	}
+	.parcours{
+	width:100%;
+	height:700px;
+	margin:0px;
+    background-color:gray;
+    display:table;
+	}
+	header{
+		height:300px;
+	}
+	.toolbar li {
+	display: block;
+	background-color:white;
+	margin: 3px;
+	padding: .5em;
+	text-transform: uppercase;
+	}
+}
